@@ -68,6 +68,55 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 1, ../sass/partials/_home.scss */
+.home-blue {
+  background-color: #2d91d2;
+  color: #ffffff;
+}
+/* line 5, ../sass/partials/_home.scss */
+.home-blue div:nth-child(2) {
+  background-color: #2984bf;
+}
+/* line 9, ../sass/partials/_home.scss */
+.home-blue .home-blue-nodejs {
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  background-position: bottom center;
+  background-image: url("../img/nodejs-logo.png");
+}
+
+/* line 17, ../sass/partials/_home.scss */
+.home-main {
+  background-image: url("../img/home-main.jpg");
+  height: 550px;
+  background-size: 100%;
+}
+
+/* line 23, ../sass/partials/_home.scss */
+.tpl-footer {
+  background-color: #353534;
+}
+
+/* line 27, ../sass/partials/_home.scss */
+.tpl-navigation {
+  -moz-box-shadow: 0px 0px 5px 1px #9b9a9a;
+  -webkit-box-shadow: 0px 0px 5px 1px #9b9a9a;
+  box-shadow: 0px 0px 5px 1px #9b9a9a;
+}
+/* line 30, ../sass/partials/_home.scss */
+.tpl-navigation ul {
+  margin: 0;
+}
+/* line 33, ../sass/partials/_home.scss */
+.tpl-navigation ul li {
+  height: 56px;
+  display: table-cell;
+  vertical-align: bottom;
+  padding: 3px 40px;
+  cursor: pointer;
+  border-bottom: 2px solid #000000;
+}
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.

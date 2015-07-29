@@ -1,0 +1,42 @@
+.home-blue {
+  background-color: $color-curious-blue;
+  color: $color-white;
+
+  div:nth-child(2) {
+    background-color: $color-boston-blue;
+  }
+
+  .home-blue-nodejs {
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    background-position: bottom center;
+    background-image: url('../img/nodejs-logo.png');
+  }
+}
+
+.home-main {
+  background-image: url('../img/home-main.jpg');
+  height: 550px;
+  background-size: 100%;
+}
+
+.tpl-footer {
+  background-color: $color-tuatara;
+}
+
+.tpl-navigation {
+  @include single-box-shadow(0px, 0px, 5px, 1px, $color-star-dust);
+
+  ul {
+    margin: 0;
+
+    li {
+      height: 56px;
+      display: table-cell;
+      vertical-align: bottom;
+      padding: 3px 40px;
+      cursor: pointer;
+      border-bottom: 2px solid $color-black;
+    }
+  }
+}

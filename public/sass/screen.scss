@@ -4,5 +4,11 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass/css3/box-shadow";
+
+@import "modules/colors";
+
+@import "partials/home";
 
 @import "../components/bootstrap-sass-twbs/assets/stylesheets/bootstrap";
+
