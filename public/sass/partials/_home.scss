@@ -2,19 +2,43 @@
   background-color: $color-curious-blue;
   color: $color-white;
 
+  h3 {
+    font-family: "Open Sans";
+    font-weight: 100;
+  }
+
   div:nth-child(2) {
     background-color: $color-boston-blue;
   }
 
-  .home-blue-nodejs {
+  .home-blue-front {
+    height: 350px;
     background-repeat: no-repeat;
     padding-bottom: 100px;
-    background-position: bottom center;
-    background-image: url('../img/nodejs-logo.png');
+    background-position: center calc(100% - 20px);
+
+    &:nth-child(1) {
+      background-image: url('../img/nodejs-logo.png');
+    }
+
+    &:nth-child(2) {
+      background-image: url('../img/html5-logo.png');
+    }
+
+    &:nth-child(3) {
+      background-image: url('../img/js-logo.png');
+    }
+
+    li {
+      &::before {
+        content: '>';
+      }
+    }
   }
 }
 
 .home-main {
+  @include single-box-shadow(0px, 3px, 3px, 0px, $color-mine-shaft, inset);
   background-image: url('../img/home-main.jpg');
   height: 550px;
   background-size: 100%;
@@ -22,21 +46,34 @@
 
 .tpl-footer {
   background-color: $color-tuatara;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .tpl-navigation {
-  @include single-box-shadow(0px, 0px, 5px, 1px, $color-star-dust);
-
   ul {
     margin: 0;
 
     li {
-      height: 56px;
+      height: 73px;
       display: table-cell;
       vertical-align: bottom;
       padding: 3px 40px;
       cursor: pointer;
       border-bottom: 2px solid $color-black;
+
+      &:hover {
+        background-color: $color-curious-blue;
+        border-bottom-color: $color-curious-blue;
+
+        a {
+          color: $color-white;
+        }
+      }
+
+      a {
+        text-decoration: none;
+      }
     }
   }
 }

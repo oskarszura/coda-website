@@ -12,3 +12,29 @@
 
 @import "../components/bootstrap-sass-twbs/assets/stylesheets/bootstrap";
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: $color-curious-blue;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+em {
+  font-style: italic;
+}
+
+.brand-text {
+  text-transform: uppercase;
+  font-size: 10px;
+  padding-left: 14px;
+  margin-top: -6px;
+}
+
+.brand-logo {
+
+}
