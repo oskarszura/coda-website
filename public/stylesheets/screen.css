@@ -82,31 +82,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .home-blue div:nth-child(2) {
   background-color: #2984bf;
 }
-/* line 14, ../sass/partials/_home.scss */
+/* line 13, ../sass/partials/_home.scss */
+.home-blue div:nth-child(2):hover {
+  background-color: #206795;
+}
+/* line 18, ../sass/partials/_home.scss */
 .home-blue .home-blue-front {
   height: 350px;
   background-repeat: no-repeat;
   padding-bottom: 100px;
   background-position: center calc(100% - 20px);
 }
-/* line 20, ../sass/partials/_home.scss */
+/* line 24, ../sass/partials/_home.scss */
+.home-blue .home-blue-front:hover {
+  background-color: #2474a8;
+}
+/* line 28, ../sass/partials/_home.scss */
 .home-blue .home-blue-front:nth-child(1) {
   background-image: url("../img/nodejs-logo.png");
 }
-/* line 24, ../sass/partials/_home.scss */
+/* line 32, ../sass/partials/_home.scss */
 .home-blue .home-blue-front:nth-child(2) {
   background-image: url("../img/html5-logo.png");
 }
-/* line 28, ../sass/partials/_home.scss */
+/* line 36, ../sass/partials/_home.scss */
 .home-blue .home-blue-front:nth-child(3) {
   background-image: url("../img/js-logo.png");
 }
-/* line 33, ../sass/partials/_home.scss */
+/* line 41, ../sass/partials/_home.scss */
 .home-blue .home-blue-front li::before {
   content: '>';
 }
 
-/* line 40, ../sass/partials/_home.scss */
+/* line 48, ../sass/partials/_home.scss */
 .home-main {
   -moz-box-shadow: inset 0px 3px 3px 0px #333333;
   -webkit-box-shadow: inset 0px 3px 3px 0px #333333;
@@ -116,18 +124,38 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: 100%;
 }
 
-/* line 47, ../sass/partials/_home.scss */
+/* line 55, ../sass/partials/_home.scss */
+.static-main {
+  -moz-box-shadow: inset 0px 3px 3px 0px #333333;
+  -webkit-box-shadow: inset 0px 3px 3px 0px #333333;
+  box-shadow: inset 0px 3px 3px 0px #333333;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC41Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'), url("../img/home-main.jpg");
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0.5))), url("../img/home-main.jpg");
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home-main.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home-main.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home-main.jpg");
+  height: 300px;
+  background-size: 100%;
+}
+
+/* line 63, ../sass/partials/_home.scss */
+.static-content {
+  background-color: #F7F7F7;
+  min-height: 300px;
+}
+
+/* line 68, ../sass/partials/_home.scss */
 .tpl-footer {
   background-color: #353534;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 54, ../sass/partials/_home.scss */
+/* line 75, ../sass/partials/_home.scss */
 .tpl-navigation ul {
   margin: 0;
 }
-/* line 57, ../sass/partials/_home.scss */
+/* line 78, ../sass/partials/_home.scss */
 .tpl-navigation ul li {
   height: 73px;
   display: table-cell;
@@ -136,16 +164,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   cursor: pointer;
   border-bottom: 2px solid #000000;
 }
-/* line 65, ../sass/partials/_home.scss */
+/* line 86, ../sass/partials/_home.scss */
 .tpl-navigation ul li:hover {
   background-color: #2d91d2;
   border-bottom-color: #2d91d2;
 }
-/* line 69, ../sass/partials/_home.scss */
+/* line 90, ../sass/partials/_home.scss */
 .tpl-navigation ul li:hover a {
   color: #ffffff;
 }
-/* line 74, ../sass/partials/_home.scss */
+/* line 95, ../sass/partials/_home.scss */
 .tpl-navigation ul li a {
   text-decoration: none;
 }
@@ -6947,7 +6975,7 @@ a.thumbnail.active {
 .progress-bar-striped {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
   background-size: 40px 40px;
 }
 
@@ -6967,7 +6995,7 @@ a.thumbnail.active {
 .progress-striped .progress-bar-success {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
 }
 
 /* line 77, ../components/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_progress-bars.scss */
@@ -6978,7 +7006,7 @@ a.thumbnail.active {
 .progress-striped .progress-bar-info {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
 }
 
 /* line 81, ../components/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_progress-bars.scss */
@@ -6989,7 +7017,7 @@ a.thumbnail.active {
 .progress-striped .progress-bar-warning {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
 }
 
 /* line 85, ../components/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_progress-bars.scss */
@@ -7000,7 +7028,7 @@ a.thumbnail.active {
 .progress-striped .progress-bar-danger {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
 }
 
 /* line 1, ../components/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_media.scss */
@@ -8920,29 +8948,30 @@ button.close {
     display: none !important;
   }
 }
-/* line 15, ../sass/screen.scss */
+/* line 16, ../sass/screen.scss */
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
 a {
   color: #2d91d2;
 }
-/* line 22, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 em {
   font-style: italic;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .brand-text {
   text-transform: uppercase;
   font-size: 10px;
   padding-left: 14px;
   margin-top: -6px;
+  color: #989898;
 }

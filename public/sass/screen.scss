@@ -5,6 +5,7 @@
 
 @import "compass/reset";
 @import "compass/css3/box-shadow";
+@import "compass/css3/images";
 
 @import "modules/colors";
 
@@ -33,6 +34,7 @@ em {
   font-size: 10px;
   padding-left: 14px;
   margin-top: -6px;
+  color: $color-mountain-mist;
 }
 
 .brand-logo {

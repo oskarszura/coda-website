@@ -9,6 +9,10 @@
 
   div:nth-child(2) {
     background-color: $color-boston-blue;
+
+    &:hover {
+      background-color: darken($color-boston-blue, 10%);
+    }
   }
 
   .home-blue-front {
@@ -16,6 +20,10 @@
     background-repeat: no-repeat;
     padding-bottom: 100px;
     background-position: center calc(100% - 20px);
+
+    &:hover {
+      background-color: darken($color-curious-blue, 10%);
+    }
 
     &:nth-child(1) {
       background-image: url('../img/nodejs-logo.png');
@@ -42,6 +50,19 @@
   background-image: url('../img/home-main.jpg');
   height: 550px;
   background-size: 100%;
+}
+
+.static-main {
+  @include single-box-shadow(0px, 3px, 3px, 0px, $color-mine-shaft, inset);
+  @include background(linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url('../img/home-main.jpg'));
+  height: 300px;
+  background-size: 100%;
+}
+
+.static-content {
+  background-color: $color-black-haze;
+  min-height: 300px;
 }
 
 .tpl-footer {
