@@ -163,17 +163,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 3px 40px;
   cursor: pointer;
   border-bottom: 2px solid #000000;
+  font-size: 16px;
 }
-/* line 86, ../sass/partials/_home.scss */
+/* line 87, ../sass/partials/_home.scss */
 .tpl-navigation ul li:hover {
   background-color: #2d91d2;
   border-bottom-color: #2d91d2;
 }
-/* line 90, ../sass/partials/_home.scss */
+/* line 91, ../sass/partials/_home.scss */
 .tpl-navigation ul li:hover a {
   color: #ffffff;
 }
-/* line 95, ../sass/partials/_home.scss */
+/* line 96, ../sass/partials/_home.scss */
 .tpl-navigation ul li a {
   text-decoration: none;
 }
