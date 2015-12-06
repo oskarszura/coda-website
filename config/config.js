@@ -8,7 +8,7 @@ var config = {
     app: {
       name: 'coda-website'
     },
-    port: 3000,
+    port: 3600,
   },
 
   test: {
@@ -16,7 +16,7 @@ var config = {
     app: {
       name: 'coda-website'
     },
-    port: 3000,
+    port: 3600,
   },
 
   production: {
@@ -24,7 +24,7 @@ var config = {
     app: {
       name: 'coda-website'
     },
-    port: 3000,
+    port: 3600,
   }
 };
 
