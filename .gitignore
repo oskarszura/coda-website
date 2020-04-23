@@ -1,5 +1,7 @@
 node_modules/
-public/components
+public/css.js
+public/scripts.js
+public/styles.css
 .sass-cache
 .idea/
 public/.sass-cache/
