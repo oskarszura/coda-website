@@ -3,3 +3,5 @@ public/components
 .sass-cache
 .idea/
 public/.sass-cache/
+npm-debug.log
+.DS_Store
