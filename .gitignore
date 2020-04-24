@@ -2,6 +2,7 @@ node_modules/
 public/css.js
 public/scripts.js
 public/styles.css
+docs/.jekyll-cache
 .sass-cache
 .idea/
 public/.sass-cache/

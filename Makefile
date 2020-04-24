@@ -6,6 +6,13 @@ MAKE=make
 all:
 	$(NPM) run build:$(mode)
 
+.PHONY: ghpages
+ghpages:
+	$(MAKE) mode=prod
+	cp public/styles.css docs/stylesheets/
+	cp public/scripts.js docs/scripts/
+	cd docs && jekyll build
+
 .PHONY: version
 version:
 	git tag $(V)
@@ -16,8 +23,6 @@ version:
 	git add ./docs/changelogs/CHANGELOG_$(V).md
 	$(MAKE) ghpages
 	git add docs
-	$(MAKE) example
-	git add public/
 	git commit --allow-empty -m "Build $(V)"
 	git tag --delete $(V)
 	git tag $(V)

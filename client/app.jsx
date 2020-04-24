@@ -13,7 +13,6 @@ function App(props: Props) {
       <section className="l-splash">
         <Logo className="l-logo" />
       </section>
-      <section className="gc-page"></section>
     </>
   );
 }
