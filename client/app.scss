@@ -2,15 +2,10 @@ $gc-icon-font-url: '~graphen/src/assets/font';
 $gc-font-url: '~graphen/src/assets/font';
 
 @import "~graphen/src/style.scss";
+@import "./variables/typography";
+@import "./components/icons/icons";
+@import "./components/contact/contact";
+@import "./components/splash/splash";
+@import "./modules/navigation/navigation";
+@import "./modules/services/services";
 
-.l-background {
-  background-image: linear-gradient(0deg, rgb(243, 243, 243) 0%, rgb(255, 255, 255) 100%);
-}
-
-.l-splash {
-  text-align: center;
-}
-
-.l-logo {
-  font-size: 14vw;
-}

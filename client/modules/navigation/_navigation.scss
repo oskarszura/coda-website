@@ -1,0 +1,11 @@
+.l-navigation {
+  max-width: 1200px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+
+  &__space {
+    flex-grow: 1;
+  }
+}

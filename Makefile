@@ -11,6 +11,7 @@ ghpages:
 	$(MAKE) mode=prod
 	cp public/styles.css docs/stylesheets/
 	cp public/scripts.js docs/scripts/
+	cp -r public/images docs/
 	cd docs && jekyll build
 
 .PHONY: version
