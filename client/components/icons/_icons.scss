@@ -1,0 +1,33 @@
+.l-icon {
+  vertical-align: middle;
+  background-repeat: no-repeat;
+
+  &__logo {
+    display: block;
+    width: 651px;
+    height: 173px;
+    background-image: url(../assets/icons/logo.svg);
+  }
+
+
+  &__phone {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background-image: url(../assets/icons/phone.svg);
+  }
+
+  &__envelope {
+    display: inline-block;
+    width: 31px;
+    height: 24px;
+    background-image: url(../assets/icons/envelope.svg);
+  }
+
+  &__github {
+    display: inline-block;
+    width: 29px;
+    height: 28px;
+    background-image: url(../assets/icons/github.svg);
+  }
+}
