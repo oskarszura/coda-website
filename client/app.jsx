@@ -12,7 +12,7 @@ function App(props: Props) {
   return (
     <>
       <section className="l-splash">
-        <div className="l-splash__logo l-icon__logo" />
+        <div className="l-splash__logo l-icon l-icon__logo" />
       </section>
       <Services />
     </>

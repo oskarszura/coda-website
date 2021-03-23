@@ -20,7 +20,7 @@ export default function Services(props: Props) {
           <img className="l-service__image" src="images/consultancy.jpg" />
         </div>
       </article>
-      <article className="l-service__item">
+      <article className="l-service__item l-service__item--reversed">
         <div className="l-service__left">
           <img className="l-service__image" src="images/webapp.jpg" />
         </div>
