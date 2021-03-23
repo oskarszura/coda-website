@@ -5,14 +5,7 @@ MAKE=make
 .PHONY: all
 all:
 	$(NPM) run build:$(mode)
-
-.PHONY: ghpages
-ghpages:
-	$(MAKE) mode=prod
-	cp public/styles.css docs/stylesheets/
-	cp public/scripts.js docs/scripts/
-	cp -r public/images docs/
-	cd docs && jekyll build
+	cp public/scripts.js public/scripts && cp public/styles.css public/stylesheets/
 
 .PHONY: version
 version:
