@@ -8,23 +8,22 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles.css"/>
+    <link rel="stylesheet" href="stylesheets/styles.css"/>
 </head>
 <body class="gc-body">
 <header class="gc-header gc-header--default">
     <nav class="gc-header__navigation">
         <ul class="l-navigation">
-            <li class="l-navigation__option">
+            <!--<li class="l-navigation__option">
                 <div class="l-contact">
                     <div class="l-contact__icon">
                         <div class="l-icon l-icon__phone">
                         </div>
                     </div>
                     <div class="l-contact__value">
-                        +48 501 - 573 - 773
                     </div>
                 </div>
-            </li>
+            </li>-->
             <li class="l-navigation__option">
                 <div class="l-contact">
                     <div class="l-contact__icon">
@@ -52,12 +51,13 @@
     </nav>
 </header>
 <main class="gc-page">
-    {{ content }}
+    <div class="js-app">
+    </div>
 </main>
 <footer class="gc-footer gc-footer--default">
     Location: EU, Poland, Kraków
 </footer>
-<script src="{{ site.baseurl }}/scripts/scripts.js"></script>
+<script src="scripts/scripts.js"></script>
 </body>
 </html>
 
