@@ -1,0 +1,15 @@
+.l-section {
+  font-family: 'Bai Jamjuree';
+  text-align: center;
+
+  &__title {
+    text-align: center;
+    font-family: 'Bai Jamjuree';
+    padding-top: 24px;
+    font-size: 36px;
+  }
+
+  &__content {
+    margin: 0 auto;
+  }
+}
