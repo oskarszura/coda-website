@@ -1,0 +1,29 @@
+.l-clients {
+  background-color: #064885;
+
+  &__title {
+    color: #fff;
+  }
+
+  &-gallery {
+    display: flex;
+
+    &__item {
+      flex: 1;
+      margin: 15px;
+    }
+
+    &__pr {
+      &-1 {
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        display: block;
+        background-image: url(../assets/smart-evolution.jpg);
+        background-size: contain;
+        width: 20vw;
+        height: 20vw;
+        margin: 0 auto;
+      }
+    }
+  }
+}

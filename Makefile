@@ -5,6 +5,8 @@ MAKE=make
 .PHONY: all
 all:
 	$(NPM) run build:$(mode)
+	mkdir -p public/scripts
+	mkdir -p public/stylesheets
 	cp public/scripts.js public/scripts && cp public/styles.css public/stylesheets/
 
 .PHONY: version

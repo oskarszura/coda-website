@@ -4,8 +4,12 @@ $gc-font-url: '~graphen/src/assets/font';
 @import "~graphen/src/style.scss";
 @import "./variables/typography";
 @import "./components/icons/icons";
-@import "./components/contact/contact";
+@import "./components/toolbar/toolbar";
 @import "./components/splash/splash";
+@import "./components/section/section";
 @import "./modules/navigation/navigation";
+@import "./modules/about/about";
 @import "./modules/services/services";
+@import "./modules/clients/clients";
+@import "./modules/contact/contact";
 
