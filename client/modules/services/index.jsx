@@ -7,7 +7,7 @@ type Props = {};
 
 export default function Services(props: Props) {
   return (
-    <section className="l-service l-section">
+    <section className="l-service l-section" id="services">
       <header className="l-section__title l-service__title">
         Services I offer
       </header>
@@ -36,7 +36,7 @@ export default function Services(props: Props) {
               <div className="l-service-gallery__description">
                 Mobile applications became a bridge between companies and their
                 clients, Create a custom mobile app for your company and keep
-                your clients updated.Lorem ipsum
+                your clients updated.
               </div>
             </div>
           </div>

@@ -15,6 +15,10 @@
     line-height: 62px;
     font-size: 18px;
 
+    a {
+      color: #585858;
+    }
+
     @include gx-phone {
       text-align: center;
     }

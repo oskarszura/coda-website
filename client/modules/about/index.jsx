@@ -6,7 +6,7 @@ type Props = {};
 
 export default function About(props: Props) {
   return (
-    <section className="l-about l-section">
+    <section className="l-about l-section" id="about">
       <header className="l-section__title">About me</header>
       <article className="l-section__content l-about__content">
         <p>
