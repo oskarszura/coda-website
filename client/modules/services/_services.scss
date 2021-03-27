@@ -8,8 +8,7 @@
   }
 
   &-gallery {
-    margin-top: 75px;
-    height: 100%;
+    margin: 75px 0.5vw 0 0.5vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 0;
@@ -17,11 +16,19 @@
 
     @include gx-phone {
       grid-template-columns: 1fr;
+      margin: 75px 0 0 0;
     }
 
     &__item {
       position: relative;
       aspect-ratio: 1 / 1;
+      width: 33vw;
+      height: 33vw;
+
+      @include gx-phone {
+        width: 100vw;
+        height: 100vw;
+      }
     }
 
     &__container {
