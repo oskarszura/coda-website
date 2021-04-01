@@ -13,6 +13,9 @@ export default function Contact(props: Props) {
           <ul className="l-contact__data">
             <li className="l-contact__datum">POLAND</li>
             <li className="l-contact__datum">31-340 Kraków</li>
+            <li className="l-contact__datum">ul. Józefa Chełmońskiego 130P/1</li>
+            <li className="l-contact__datum">NIP: 6282159096</li>
+            <li className="l-contact__datum">REGON: 120957802</li>
             <li className="l-contact__datum">oszura@codait.net</li>
           </ul>
         </p>
